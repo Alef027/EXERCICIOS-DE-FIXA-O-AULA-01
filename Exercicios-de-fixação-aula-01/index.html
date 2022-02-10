@@ -42,6 +42,50 @@
 
     <!--Exercicio 03-->
     <script>
+        let Fahrenheit = parseFloat(prompt("Informe a temperatura em graus Fahrenheit: "));
+        console.log(Fahrenheit);
+
+        let Celsius = 5*((Fahrenheit-32)/9);
+        console.log(Celsius);
+
+        alert ("A temperatura em grau Celsius é " + Celsius);
+    </script>
+
+    <!--Exercicio 04-->
+    <script>
+        let a = parseFloat(prompt("digite o valor do 1° cateto: "));
+        console.log(a);
+
+        let b = parseFloat(prompt("digite o valor do 2° cateto: "));
+        console.log(b);
+
+        let c = parseFloat(prompt("digite o valor da hipotenusa: "));
+        console.log(c);
+
+        let perimetro = a + b + c;
+        console.log(perimetro);
+
+        let area_t = (b * a) / 2;
+        console.log(area_t);
+
+        alert ("O valor do perimeto é " + perimetro + " e o valor da área é de " + area_t);
+    </script>
+
+    <!--Exercicio 5-->
+    <script>
+        let base = parseFloat(prompt("Informe o valor da base: "));
+        console.log(base);
+
+        let altura = parseFloat(prompt("Informe o valor da altura: "));
+        console.log(altura);
+
+        let area_r = base * altura;
+        console.log(area_r);
+
+        let azuleijos = area_r / 2.5;
+        console.log(azuleijos);
+
+        alert ("A área da cozinha é de " + area_r + "m² você vai precisar de " + azuleijos + " caixas de azuleijos para cobrir o chão.");
         
     </script>
 </body>
